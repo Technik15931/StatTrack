@@ -1,0 +1,6 @@
+name: StatTrack
+version: '1.0'
+main: technik.stattrack.StatTrack
+api-version: '1.20'
+commands:
+  stattrack:

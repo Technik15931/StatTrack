@@ -1,0 +1,26 @@
+#there are 3 placeholders: %mined%, %flown%, %killed%
+#%mined% applies to all pickaxes, axes, shovels
+#%flown% applies to elytra
+#%killed% applies to all swords
+#you can use hex colors in this plugin config
+
+lore:
+  mine: '&aBlocks mined: %mined%'
+  fly: '&aDistance flown: %flown%'
+  kill: '&aEntities killed: %killed%'
+  stattrack-item-lore:
+    - '&aapply to any tool'
+    - '&bfor it to recieve'
+    - '&cnumber that tracks blocks mined with this tool or'
+    - '&dnumber of kills that player has killed with that sword'
+messages:
+  invalid-usage: '&cInvalid command usage check /stattrack for more info!'
+  config-successfull-reload: '&aConfig successfully reloaded!'
+  count-not-provided: '&cCount not provided!'
+  no-arguments-provided:
+    - '&cArguments not provided!'
+    - '&7Available subcommands:'
+    - '&7/stattrack give (count)'
+    - '&7/stattrack config reload'
+names:
+  stattrack-item-name: '&a&lStatTrack'

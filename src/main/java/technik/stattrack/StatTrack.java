@@ -26,6 +26,3 @@ public final class StatTrack extends JavaPlugin {
         // Plugin shutdown logic
     }
 }
-
-//ToDo
-//add colorutil to line31 in StatTrackCommand
